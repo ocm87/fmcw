@@ -1,0 +1,98 @@
+(footprint "12V_Connector"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.14 1.73 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "133b2955-9ae5-4cdf-974f-4ea7d74fe765")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "12V_Connector"
+		(at 0.14 3.23 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e1e7aa52-1451-41b0-90cc-7863993e64ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb3dbfc4-64b5-4d40-88d6-1cacbfd8c7d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7568b35f-f6c1-45f6-932f-3eef76783977")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a59d48de-5938-4d0c-bfa8-e1848b1664f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0.14 4.73 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "12b22483-cc47-498e-aa24-75d98d820c32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -3 0)
+		(size 2.286 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "d2758d46-8aea-4133-b811-e60553dfda1e")
+	)
+	(pad "2" smd roundrect
+		(at 3 0)
+		(size 2.286 1.524)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "8059fcda-9727-4ef9-9818-3310ec0da7ed")
+	)
+)
