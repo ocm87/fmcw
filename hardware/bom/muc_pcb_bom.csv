@@ -1,0 +1,11 @@
+Reference,Value,Datasheet,Footprint,Qty
+J1,ARM_CORTEX_SWD_10,,arm_debug_header_smt:SAMTEC_FTSH-105-01-LM-DV-TR,1
+J2,FILTER_OUTPUT,~,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1
+J3,3V3 Input,~,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1
+J4,3V3_MCU_JUMP,~,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1
+J5,USART,~,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1
+J6,5V Input,~,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1
+J7,5V_MCU_JUMP,~,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,1
+J8,GPIO_OUT,~,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,1
+U1,SEEED_WIO_E5_MINI,,dev_boards:Wio_e5,1
+U2,microSD_Card_Breakout1,,Capstone:adafruit_sd_card_spi,1
